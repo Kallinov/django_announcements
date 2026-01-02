@@ -18,9 +18,9 @@ Quick start
 
 2. Include the announcements URLconf in your project urls.py like this::
 
-```
+    ```
     path("announcements/", include("django_announcements.urls")),
-```
+    ```
 
 3. Run ```python manage.py migrate``` to create the models.
 
